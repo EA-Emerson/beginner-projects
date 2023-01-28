@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Beginning</title>
+</head>
+<body>
+    <p id="demo" onclick="document.getElementById('demo').textContent='update'">Hello World</p>
+    <p id="txt" onclick="document.getElementById('txt').style.backgroundColor='blue'">Change the color</p>
+
+    <button onclick="document.getElementById('img').src='./img/head of engineering.png'">NEXT</button>
+    <img id="img" src="./img/Beside buy crypto on layer 2.png" width="30%" alt="">
+    <button onclick="document.getElementById('img').src='./img/smart phone picture.png'">PREVIOUS</button>
+    My name is Aghogho Emerson Emokiniovo, and i am a 300lv mechanical engineering student from the university of Benin
+    HEll World
+    
+    <!-- you cant start variable name with number -->
+<!-- array is similar to variables, but you can store multiple values in array -->
+    <script>
+        var name='Paul';
+        var str1="Pogba";
+        var y = "34";
+        var z=true;
+        var num2="3"
+
+        console.log(name + " " + str1)
+        console.log(y + num2)
+        console.log(name)
+        console.log(y)
+        console.log(z)
+
+        
+        //this is how you put array in Javascript
+
+
+        var car2 =['jeep', "spyder", "jaguar", "Koenigsegg", "lamborghini"]
+        var car1= ['1', "2", "3", "4", "5"]
+        //This is an even easier way to put arrays in JavaScript
+
+        
+        //car2.pop()
+        //This removes the last item from the array
+
+       
+        //car2.push("Toyota")
+        //This adds the item in the bracket to the last part of the array
+
+        
+        //car2.shift()
+        //This removes the first value from the array
+
+       
+        //car2.unshift("Nissan")
+        //This adds the text as the first value of the array
+
+       
+        // car2.reverse()
+        //This reverses the order of the array
+
+        
+        //answer = car2.concat(car1)
+        //This is used to merge two arrays together
+
+        car2[2] = 'amazon'
+        //This is used to change the item in that particular location in the array
+
+
+        
+
+        var x = car2.slice(1,3)
+        console.log(x)
+        //slice removes the value(s) that come(s) before the first item holder and the values from the last called item holder
+        
+        console.log(car2)
+        //console.log(answer) //This prints the merged arrays on the console
+
+
+        //objects are like array, but it has key:'value' pairs, and they are seperated from each  other with a ,
+        var student ={
+            name:"Paul",                                                                                
+            age:15, 
+            class:"ss3",
+            course:["math", "eng"],
+            is_married:false,
+            demo: function(){
+                console.log('face')
+            }
+        }
+        console.log(student)
+        console.log(student.demo())
+        console.log(student.age) //This is a method of calling a value using its . it is the dot notation method
+
+        console.log(student['class']) //This is the square bracket method
+
+        // functions are used to store a block of code, and it makes code organized
+        // There are 3 ways to write functions. 'function declaration' and 'function expression'
+
+        // 1)  FUNCTION DECLARATION
+
+        // a,b are the parameters
+
+        var i = 'one'
+        // anything inside a function is a local scope
+        // anything outside a function is a global scope
+        // the local scope can access the global scope, 
+        // But the global scope can't access what is in the local scope
+
+        // function demo(){
+        //     // var ans = a + b
+        //     console.log(i)
+        //     // return ans
+        //     var z ='paris'
+        // }
+        // console.log(z)
+        // demo()
+        // console.log(demo(3, 7))
+        // using the return keyword is an alternate method of calling the ans variable
+
+        // *demo(3, 7)*
+        // 3,7 are the values
+        // Note:you have to call the function to make it work
+        // Press shift +alt + arrow_down to duplicate several lines at a time
+        // functions take in parameters
+
+        // 2) FUNCTION EXPRESSION
+
+        // const demo =function(){
+        //     return 'spain'
+        // }
+        // console.log(demo())
+
+        // The difference between both of them is hoisting
+        // the (console.log) can be placed anywhere in function declaration. 
+        // This can't be done in function expression
+
+        let text =''; 
+
+
+
+    </script>
+</body>
+<script src="../JS beginning/scripts.js"></script>
+<script src="../JS beginning/Date.js"></script>
+<script src="../JS beginning/intervals.js"></script>
+</html>

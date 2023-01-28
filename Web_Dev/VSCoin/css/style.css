@@ -1,0 +1,77 @@
+body{
+    background-image: url(../img/pierre-borthiry-vBCVcWUyvyM-unsplash\ \(2\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Nunito', sans-serif;
+}
+
+header{
+    box-sizing: border-box;
+    /* margin-top: 10px ; */
+    background-color: #0b1729;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+    height: 50px;
+}
+
+.logo{
+    
+    cursor: pointer;
+    width: 70px;
+    height: 50px;
+    padding-left: 40px;
+}
+
+a{
+    font-weight: 100;
+    font-size: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.main-div{
+    display: flex;
+}
+
+.text-div{
+    color: white;
+    font-size: 50px;
+    width: 50%;
+    padding-top: 50px;
+    font-weight: 800;
+    padding-left: 100px;
+}
+
+.btn1{
+    padding-top: 250px;
+    padding-left: 100px;
+}
+
+#btn{
+    background-color: white;
+    opacity: 0.8;
+    width: 150px;
+    height: 35px;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+    border-style:none;
+}
+
+#btn:hover{
+    cursor: pointer;
+    width: 154px;
+    height: 36.5px;
+    background-color: #0b1729;
+    color: white;
+}

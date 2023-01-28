@@ -1,0 +1,30 @@
+body{
+    background: url("../img/3064463.jpg");
+     background-size:100%;
+     background-repeat: no-repeat;
+}
+
+.language-select{
+    margin-left: 5%;
+    margin-top: 3%;
+    display: relative;
+}
+
+#buttons{
+    background:linear-gradient(to top, rgb(25,25,25), rgba(25,25,25,0.7));
+    color: white;
+    width: 40%;
+    padding: 0.9%;
+    margin: 0.2%;
+   margin-left: 30%;
+}
+
+#buttons:hover{
+    cursor: pointer;
+    background-color:white;
+    color:white;
+}
+
+#button{
+    margin-top: 30%;
+}

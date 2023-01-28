@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+.maindiv{
+    border: 2px solid grey;
+    width: max-content;
+    display: flex;
+    margin: auto;
+    border-radius: 5px;
+    justify-content: center;
+    /* align-items: center;
+    align-content: center;
+    align-self: center; */
+
+}
+.minordiv{
+    /* border: 2px solid grey; */
+    margin:6px 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 20vw;
+}
+
+.minordivs{
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* border-bottom: solid black; */
+}
+
+.form-group{
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column; 
+}
+
+.labels{
+    font-size: 13px;
+    align-self: flex-start;
+}
+
+.btn{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(19, 19, 82);
+    color: white;
+}
+
+.btn:hover{
+    cursor: pointer;
+
+}
+
+input{
+    padding: 3px 5px;
+    height: max-content;
+    width:100%;
+    /* border-bottom: 2px solid grey; */
+}
+
+.minorbtn{
+    align-self: center;
+    display: flex;
+    justify-content: center;
+}
+
+.minordivlink, .minordivlinks{
+    display: flex;
+    font-size: 12.5px;
+    justify-content: center;
+}
+
+.minordivlinks{
+    margin-top: 20px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 14px;
+}
+@media screen and (max-width:700px){
+    .maindiv{
+        border: 2px solid grey;
+        width: 70vw;
+        display: flex;
+        margin: auto;
+        border-radius: 5px;
+        justify-content: center;
+        /* align-items: center;
+        align-content: center;
+        align-self: center; */
+    
+    }
+    .minordiv{
+        /* border: 2px solid grey; */
+        margin:6px 10px;
+        display: flex;
+        justify-content: space-between;
+        width: 64vw;
+    }
+}

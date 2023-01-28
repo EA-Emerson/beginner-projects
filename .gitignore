@@ -1,0 +1,4 @@
+# Django virtual environment files
+*.vscode/
+node_modules/
+__pycache__/

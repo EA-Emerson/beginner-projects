@@ -1,0 +1,51 @@
+element selector
+{
+
+property:value;
+
+}
+ Form css to work in our html document, we have embed it into the html code.
+there are three ways we can do this.
+
+1. Inline styling.
+2. Internal styling.
+3. external styling.
+
+inline styling requires that the styling code(css code) be written inside
+tag of the element's tag. It usually follows this format: 
+<p style="width:50px; height:50px; color:red;"></p>
+(style="width:50px; height:50px; color:red;") there is the syntax for inline 
+styling..............
+
+
+internal styling requires that all the css codes be written inside a style
+tag. and the syntax for this is just like the normal css syntax:
+element selector
+{
+
+property:value;
+
+}
+
+
+External styling: this requires that you open another document with the .css
+extension, write all your css codes there and link it(them) to the intended 
+html doc with the help of a link tag. note that this link tag is different from
+the anchor tag.
+<link rel= "stylesheet" href="location/name of the css file.css">
+the link tag is usually placed inside the head tag of the html doc.
+
+Box model of css
+these implies that every element or tag in html code is actually in the form 
+of a box, having these basic properties: margin, border, padding, content.
+these are the basic properties of css.
+each of these properties stands as parent property to other; for instance
+the margin property has under it other properties like margin-left, margin-right
+margin-up and margin-down.
+the same applies to the rest of them except the contents.
+class work.
+Haven known these things we should do a mini project to style a form externally
+
+Home work.
+Remember to do your last assignment and look for the meaning of css psuedo selectors.
+find the various psuedo selectors for the anchor tag.

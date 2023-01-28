@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+}
+
+.dlt, #stop{
+    padding: 5px;
+    margin: 5px;
+}
+p{
+    padding: 10px;
+}
+h1{
+    color: blue;
+}
+.h1 {
+    display: none;
+}

@@ -1,0 +1,86 @@
+body{
+    font-family: sans-serif;
+}
+
+li, a{
+    /* font-weight: 300; */
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    padding-right: 20px;
+}
+
+header{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+    height: 60px;
+}
+
+.logo{
+    cursor: pointer;
+    width: 90px;
+    height: 60px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 15px;
+    background: white;
+    height: 470px;
+}
+
+.lorem{
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+}
+
+.about{
+    font-size: 40px;
+    font-weight: 700;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.footer-grid{
+    display: flex;
+
+    grid-template-columns: 1fr 1fr;
+}
+
+.img2{
+    width: 500px;
+    height:150px;
+    padding-left: 400px;
+}
+
+#footer-text{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#footer{
+    align-items: center;
+    height: 350px;
+    color: black;
+    background-color: whitesmoke;
+}
+
+.navbar{
+    margin-left: 400px;
+}
+
+#nav_content:hover{
+    font-weight: bolder;
+}
+
+@media (min-width:500px){
+    
+}

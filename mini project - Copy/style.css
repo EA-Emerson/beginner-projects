@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.random_generator{
+    width: 20vw;
+    height: 15vh;
+    border: solid 2px black;
+}

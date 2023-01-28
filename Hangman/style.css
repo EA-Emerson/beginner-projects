@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    margin: 5vh 5vw 0 5vw;
+    /* left: 50%;
+    transform: translateX(-50%);
+    position: absolute; */
+    display: flex;
+    flex-direction: column;
+    max-width: fit-content;
+    
+    
+}
+
+.rules{
+    border: solid 3px rgb(97, 97, 97);
+    border-radius: 10px;
+    text-align: left;
+    margin-bottom: 5vh;
+    padding: 3vh 5vh;
+}
+.rulesList{
+    display: none;
+}
+.startNow{
+    margin-top: 5vh;
+}
+.mainRules{
+    display: block;
+}
+.mainGame{
+    border: solid 3px rgb(97, 97, 97);
+    border-radius: 10px;
+    padding: 3vh;
+    display: none;
+}
+.btn_container{
+    display: flex;
+    /* width: 100%; */
+    justify-content: space-between;
+    margin-top: 3vh;
+}
+button{
+    max-width: max-content;
+    padding: 3px 5px;
+}

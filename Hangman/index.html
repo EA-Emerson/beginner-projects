@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+            <div class="rules">
+                <div class="mainRules">
+                    <h1 class="welcome" style="margin-bottom: 2vh;">WELCOME TO HANGMAN</h1>
+                    <h4 class="RULEBTN">Click <button class="rulesBtn" onclick="showRules()">Rules</button> to read the rules</h4>
+                    <h4 class="STARTBTN">Click <button class="start">START</button> to start a new game</h4>
+                    
+                
+                <ol class="rulesList"><h4>Read the following rules carefully.</h4>
+                    <li>You'll be given a word and a hint of what the word is at random </li>
+                    <li>Type in the letters you think make up the word </li>
+                    <li>With each letter you guess correctly, the letter will be displayed</li>
+                    <li>You start the game with 10 Lives</li>
+                    <li>Every distinct wrong letter will result in the loss of a live </li>
+                    <li>The game ends when lives left is zero or when you win</li>
+                    <li>Fill each blank space in the word with the corresponding letter to win</li>
+                    <footer><button class = 'closeRules'>Close Rules</button></footer>
+                </ol>
+                </div>
+            </div>
+        <div class="mainGame">
+            <h1>Guess the Word</h1>
+        <div class="input" >
+        </div>
+
+        <div class="inputs" >
+        </div>
+    
+        <div class="texts" >
+
+        </div>
+        <div class="hangman">
+            <div class="hint">Hint: <span>
+
+                </span>
+            </div>
+            <div class="guess_left">Remaining guesses: <span>
+
+                </span>
+            </div>
+            <div class="wrong_letter">Wrong Letters: <span class="wrong_letters">
+
+                </span>
+            </div>
+        </div>
+        <div class="btn_container">
+            <button class="resetbtn">
+                RESET
+            </button>
+            <!-- <button class="restart">START</button> -->
+            <!-- <button class="stop" onclick="stop()">STOP</button> -->
+            <button class="rulesAgain">
+                Read the Rules Again
+            </button>
+        </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+    <script src="words.js"></script>
+</body>
+</html>
